@@ -1,0 +1,269 @@
+ /* navBar*/
+.BackNavItemHome{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 5%;
+    color: white !important;
+}
+.BackNavItem{
+    background-color: #3C4C8F;
+    margin:5%;
+    border-radius: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.nav-link:hover{
+  color: #1B0044 !important;
+}
+.BackNavItemHome:hover{
+   color: #3C4C8F !important;
+}
+
+.TamanhoUl{
+    width: 100% !important;
+    justify-content: flex-end !important;
+}
+/* carousel principal*/
+.container-carrousel{
+    height: 150px !important;
+}
+.ColorCarouselFont{
+  color: white;
+}
+
+/* Futuro da empresa*/
+.containerFuturoEmpresa{
+    display: flex; 
+     height: 321px;
+    border-radius: 5px;
+    background-color: #1B0044;
+    color: white;
+}
+.FundoFuturoEmpresa{
+    background-color: #3C4C8F;
+    padding: 3%;
+}
+.bannerConfig{
+    height: 319px;
+    padding: 5px;
+}
+.ConteudoBannerFuturoEmpresa{
+    width: 60%;
+}
+.ConteudoBannerFuturoImagem{
+    width: 40%;
+}
+
+
+/*Nossos Diferenciais */
+.centralizaTitleCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FundoTitleCard{  
+   width:50%    
+}
+.titleCard{
+    border-bottom: solid 1px blue;
+    text-align: center;
+}
+.estiloCard{
+    width: 15rem;
+    border: solid 1px blue !important;
+    margin: 3% !important;
+    background-color: #1B0044 !important;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px !important;
+}
+.containerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    flex-wrap: wrap;
+    
+}
+.CardImagem{
+    padding: 10%;
+}
+.CorFundoBanner{
+    background-color: #1B0044;
+}
+
+/* carousel experiência de usuarios */
+.containerDist{
+    padding: 10%;
+    border: #1B0044 solid 1px;
+    
+}
+.BannerCarouselMid{
+    
+    display: flex !important;
+    color: rgb(2, 2, 2) !important;
+    background-color: white;
+    border-radius: 5px;
+    background-color: #1B0044;    
+}
+
+.textBanner{
+width: 60%;
+text-align: center;
+background-color: white;
+height: 250px;
+margin-top: 5%;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.textBanner p{
+    margin-top: 5%;
+}
+.imageBannerDiv{
+    width: 40%;
+    background: linear-gradient( 90deg, white 50%, #1B0044 50% );
+    height: 250px;
+    margin-top: 5%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.imageBanner{
+border-radius: 50%;
+height: 320px;
+}
+
+/* Quem somos */
+.containerQuemSomos{
+    border: solid 3px #4B5CA5;
+    margin: 4%;
+    display: flex;
+    border-radius: 20px;
+}
+.ContainerQuemSomosText{
+    width: 50%;
+    text-align: center;
+    
+}
+.ContainerQuemSomosTextConteudoPrimario {
+    margin: 10% 5% 20% 5%;
+    
+    
+}
+.ContainerQuemSomosTextConteudoSecundario{
+    margin: 20% 5% 10% 5%;
+}
+.ContainerQuemSomosImagem{
+    width: 50%;
+}
+
+
+
+
+/*footer */
+.main-title{
+    color: #3C4C8F;
+}
+  #contact-area {
+    text-align: center;
+  }
+  
+  .contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3C4C8F;
+  }
+  
+  .contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-tile {
+    font-weight: bold;
+    color: #3C4C8F;
+  }
+  
+  #msg-box p {
+    font-size: 22px;
+  }
+  
+  #contact-form input[type="text"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+  
+  #contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+  }
+  
+  #contact-form .main-btn:hover {
+    color: #3C4C8F;
+  }
+  
+  /* Copy */
+  
+  #copy-area {
+    background-color: #F1F1F1;
+  }
+  
+  #copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #copy-area .container p {
+    margin-bottom: 0;
+  }
+  
+  #copy-area .container a {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  #copy-area .container a:hover {
+    text-decoration: none;
+    color: #3C4C8F;
+  }
+  #msg-box{
+    color: #3C4C8F;
+  }
+@media (max-width: 990px) {
+    .BackNavItem {
+      background-color:  rgb(61, 4, 114) !important;
+      margin: 0;
+      margin-top: 2%;
+      width: 30%;
+      
+    }
+    .BackNavItemHome{
+      background-color:  rgb(61, 4, 114) !important;
+      border-radius: 20px;
+      margin: 0;
+      margin-top: 2%;
+      width: 30%;
+    }
+    .nav-item{
+      display: flex;
+      justify-content: center;
+    }
+    .nav-link:hover{
+      color: #3C4C8F !important;
+    }
+  }
