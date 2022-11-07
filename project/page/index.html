@@ -11,6 +11,11 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
   <title>Home</title>
 </head>
 <header>
@@ -220,7 +225,45 @@
     </section>
     <section>
       <!--filtro equipe de sucesso-->
-
+      <div id="portfolio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title" >Conheça nossos projetos</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              <button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
+              <button class="main-btn filter-btn" id="dsg-btn">Design</button>
+              <button class="main-btn filter-btn" id="seo-btn">SEO</button>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="../img/portfolioimage.jpg" class="img-fluid" alt="Projeto 1">
+              <p class="portfoliotext">Desenvolvimento</p>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="../img/portfolioimage.jpg" class="img-fluid" alt="Projeto 2">
+              <p class="portfoliotext">Desenvolvimento</p>
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="../img/portfolioimage.jpg" class="img-fluid" alt="Projeto 3">
+              <p class="portfoliotext">Desenvolvimento</p>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="../img/portfolioimage.jpg" class="img-fluid" alt="Projeto 4">
+              <p class="portfoliotext">Desenvolvimento</p>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="../img/portfolioimage.jpg" class="img-fluid" alt="Projeto 5">
+              <p class="portfoliotext">Desenvolvimento</p>
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="../img/portfolioimage.jpg" class="img-fluid" alt="Projeto 6">
+              <p class="portfoliotext">Desenvolvimento</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -279,5 +322,5 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
+  <script src="../js/script.js"></script>
 </html>

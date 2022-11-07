@@ -162,7 +162,47 @@ height: 320px;
     width: 50%;
 }
 
+/* <!--filtro equipe de sucesso-->*/
 
+.project-box {
+  margin-bottom: 30px;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: none;
+  border-bottom: 1px solid #3C4C8F;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+.main-title{
+  text-align: center;
+  
+}
+
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+  color: #FFF;
+  background-color: #3C4C8F;
+}
+.portfoliotext{
+  background-color: #3C4C8F;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 5px black;
+}
 
 
 /*footer */
@@ -265,5 +305,38 @@ height: 320px;
     }
     .nav-link:hover{
       color: #3C4C8F !important;
+    }
+  }
+  @media(max-width:990px)
+  { /* futuro da empresa*/
+    .containerFuturoEmpresa{
+      display: inline-table;
+    }
+    .ConteudoBannerFuturoImagem{
+      width: 100%;
+      padding: 3%;
+    }
+    
+    .ConteudoBannerFuturoEmpresa{
+      width: 100%;
+
+    }
+    .ConteudoBannerFuturoEmpresa h1{
+      margin: 20px;
+      
+    }
+    .FundoFuturoEmpresa{
+      display: flex;
+      justify-content: center;
+    }
+    /* quem somos*/
+    .containerQuemSomos{
+      display: inline-table;
+    }
+    .ContainerQuemSomosText{
+      width: 100%;
+    }
+    .ContainerQuemSomosImagem{
+      width: 100%;
     }
   }
