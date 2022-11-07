@@ -8,12 +8,14 @@ $('.filter-btn').on('click', function() {
   $('.main-btn').removeClass('active');
   $(this).addClass('active');
 
-  if(type == 'dsg-btn') {
-    eachBoxes('dsg', boxes);
-  } else if(type == 'dev-btn') {
-    eachBoxes('dev', boxes);
-  } else if(type == 'seo-btn') {
-    eachBoxes('seo', boxes);
+  if(type == 'front-btn') {
+    eachBoxes('front', boxes);
+  } else if(type == 'back-btn') {
+    eachBoxes('back', boxes);
+  } else if(type == 'prot-btn') {
+    eachBoxes('prot', boxes);
+  }else if(type == 'doc-btn') {
+    eachBoxes('doc', boxes);
   } else {
     eachBoxes('all', boxes);
   }
